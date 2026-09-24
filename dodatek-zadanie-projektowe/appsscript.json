@@ -1,0 +1,22 @@
+{
+  "timeZone": "Europe/Warsaw",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/calendar.addons.execute",
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive.readonly",
+    "https://www.googleapis.com/auth/userinfo.email"
+  ],
+  "addOns": {
+    "common": {
+      "name": "Zadanie projektowe",
+      "logoUrl": "https://TU_WKLEJ_PUBLICZNY_ADRES_IKONY.png"
+    },
+    "calendar": {
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
+      }
+    }
+  }
+}
